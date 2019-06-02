@@ -1,0 +1,8 @@
+---
+# Variables defined for us-central1-a
+name_zonea: webinstance1
+name_zoneb: webinstance2 
+name_zonec: webinstance3
+name_zonef: webinstance4
+zone: us-central1-a
+region: us-central1
