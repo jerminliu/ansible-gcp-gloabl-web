@@ -1,4 +1,4 @@
-## compute-video-demo-ansible
+## gcp-ansible
 
 This is the supporting documentation for
 <a href='https://www.youtube.com/watch?v=FF-HfP_OHpU'>Using Ansible with Google</a>
@@ -155,18 +155,9 @@ ansible-playbook clean-up.yml
   to the `localhost` line
 
 
-## Contributing
 
 Have a patch that will benefit this project? Awesome! Follow these steps to have it accepted.
 
-1. Please sign our [Contributor License Agreement](CONTRIB.md).
 1. Fork this Git repository and make your changes.
 1. Run the unit tests. (gcimagebundle only)
 1. Create a Pull Request
-1. Incorporate review feedback to your changes.
-1. Accepted!
-
-## License
-All files in this repository are under the
-[Apache License, Version 2.0](LICENSE) unless noted otherwise.
-

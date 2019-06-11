@@ -1,5 +1,4 @@
 ---
-# compute-video-demo-ansible
 - name: Create Compute Engine instances
   hosts: local
   gather_facts: False
@@ -24,7 +23,7 @@
           - auto_delete: true
             boot: true
             initialize_params:
-              source_image: "{{ image }}"
+              image: "{{ image }}"
         network_interfaces:
           - access_configs:
               - name: External NAT
